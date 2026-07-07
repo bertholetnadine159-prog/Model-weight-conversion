@@ -1,5 +1,7 @@
 # Model Weight Conversion
 
+Team: Shenhai Electromagnetic force
+
 这是一个面向 YOLO11 分割模型的权重转换与 RDK/Horizon 端侧部署项目。仓库包含 ONNX 导出脚本、D-Robotics RDK 平台 BIN 模型推理脚本，以及一个已转换的 `YOLO11_LBL.bin` 模型文件。
 
 ## 文件说明
