@@ -138,3 +138,7 @@ python "Model deployment.py" --debug-sensitivity --debug-model ./calibrated_mode
 - `Model deployment.py` 期望模型输出为 4 个张量：`p3`、`p4`、`p5` 和 `proto`。脚本也兼容部分拆分为 10 个输出张量的模型。
 - 当前类别名为 `sea_cucumber`，如需多类别部署，请同步修改类别名称、`--classes-num` 和模型输出配置。
 - RDK 推理输入会转换为 NV12，并自动进行 letterbox resize。
+
+## 参考资料
+
+- SkyXZ. [万字长文，学弟一看就会的RDKX5模型转换及部署，你确定不学？](https://www.cnblogs.com/SkyXZ/p/18681804)
